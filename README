@@ -1,0 +1,28 @@
+Vitalii Stadnyk
+CS410
+CHAT_LAB
+
+
+I attached screenshot that shows chat between 3 users in SHELL.
+client.c is a client file, server.c is a server file.
+MAKEFILE compiles needed files
+
+To build the code type: make all
+To start the server type: ./server 'number_of_the_port'
+To use a client type: ./client 'name_of_the_host' 'number_of_the_port'
+
+Submitted code allows users to talk to each other (10 at most).
+The usage specifications are below. 
+
+  NOTE: I ASSUMED THAT MESSAGES SHOULD BE DELIVERED ONLY WITH THE USAGE OF /POST
+  USAGE: 
+  
+  Once connected to server you can type:
+       
+  /USER 'username' - to set up your username
+  /POST 'message' - to send your message to all the connected users to the server
+  /WHO - request a list of people who are currently connected to the server  
+  /HELP - to get all the possible options of commands in the chat lab
+  /QUIT - to disconnect from the server
+ 
+
